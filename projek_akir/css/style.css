@@ -1,0 +1,228 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, Sans-serif;
+	
+	background-color: #eff5f9;
+}
+
+.headerMenu {
+
+background-color: #03468A;
+ 
+	height: 70px;
+	border-bottom: 0px;
+	padding-left: auto;
+	padding-right: auto;
+	width: 100%; 
+}
+
+#wrapper {
+	background-color: #03468A;
+	margin-left:auto;
+	margin-right: auto;
+	width: 800px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-left: 1px solid #DCE5EE;
+	border-right: 1px solid #DCE5EE;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: auto;
+
+}
+.logo {
+	background-color: #03468A;
+	width: 125px;
+}
+.logo img {
+	background-color: #03468A;
+
+	width: 150px;
+	height:  38px;
+	padding-top: 5px;
+}
+/*.searc_box{
+	background-image: url("background.png");
+	position: *absolute;
+	top: 13px;
+	margin-left: 135px;
+}
+#search input[type="text"] {
+	background: url("search-icon.png") no-repeat 10px 6px #267bb6;
+	outline: none;
+	border: 0 none;
+	font:bold 12px Arial, Helvetica, Sans-serif;
+	width: 350px;
+	padding: 6px 15px 6px 35px;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+	-webkit-transition: all 0.7s ease 0s;
+	-moz-transition: all 0.7s ease 0s;
+	-o-transition: all 0.7s ease 0s;
+	transition:  all 0.7s ease 0s;
+}
+#search input[type="text"]:focus {
+	background: url("search-icon.png") no-repeat 10px 6px #fcfcfc;
+	color: #6a6f75;
+	width: 350px;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+	box-shadow: 0 1px rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);  
+	}*/
+
+@media screen and (max-width: 1280px){
+#menu{
+
+	background-color: #03468A;
+
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 37px;
+	padding-top: 19px;
+	margin-right: 6%;
+}
+}
+
+@media screen and (min-width: 1280px){
+#menu{
+background-color: #03468A;
+
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 37px;
+	padding-top: 19px;
+	margin-right: 4%;
+}
+}
+
+#menu a{
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 14px;
+background-color: #03468A;
+
+	background-repeat: no-repeat;
+	padding-top: 19px;
+	padding-bottom: 22px;
+	padding-left: 10px;
+	padding-right: 10px; 
+
+}
+h2{
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 18px;
+	padding: 8px;
+	color: #0084c6;
+}
+
+input[type="text"]{
+	background-color: white;
+	border: 1px solid #E2E2E2;
+	font-size: 15px;
+	padding: 5px;
+	width: 300px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	outline: none;
+}
+input[type="text"]:hover {
+	border:1px solid #006FC4;
+}
+input[type="password"]{
+	background-color: white;
+	border: 1px solid #E2E2E2;
+	font-size: 15px;
+	padding: 5px;
+	width: 300px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	outline: none;
+}
+input[type="password"]:hover {
+	border:1px solid #006FC4;
+}
+input[type="submit"]{
+	background-color: #006FC4;
+	border: 1px solid #00508D;
+	color:white;
+	font-size: 15px;
+	padding: 5px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	border-radius: 7px;
+}
+
+#menua a:hover{
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	background-image: url("../image/background.png") no-repeat;
+	padding-top: 19px;
+	padding-bottom: 22px;
+	padding-left: 10px;
+	padding-right: 10px; 
+
+}
+
+.profileleftSideContent{
+width: 194px;
+padding-right: 0px;
+padding-bottom: 5px;
+padding-top: 5px;
+padding-left: 0;
+height: 200px;
+text-align: 	justify;
+}
+
+.postForm {
+	float: right;
+	width: 750px;
+	height: 80px;
+	background-color: #F3F6F9;
+	padding: 5px;
+}
+
+.profilePosts{
+	float: right;
+	width: 750px;
+	height: 414px;
+	background-color: #DCE5EE;
+	padding: 5px;  
+}
+hr {
+	background-color: #DCE5EE;
+	height: 1px;
+	border: 0px;
+}
+#wrapper2 {
+	
+	background-color: #eff5f9;
+	margin-left:auto;
+	margin-right: auto;
+	width: 1000px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-left: 1px solid #DCE5EE;
+	border-right: 1px solid #DCE5EE;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: auto;
+
+}
+.textHeader {
+	background-color: #F3F6F9;
+	width: 190px;
+	height: 15px;
+	padding: 5px;
+	border-bottom: 1px solid #DCE5EE;
+
+
+}
